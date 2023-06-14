@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complaints and Queries</title>
+  </head>
+  <title>Complaints and Queries</title>
+  <link href="complaint.css" rel="Stylesheet for complaint" />
+  <body>
+    <h1><strong>Register your Complaint or Query</strong></h1>
+    <!-- <hr /> -->
+    <!-- <br /> -->
+
+    <p>FILE YOUR COMPLAINT OR QUERY BY FILING THE FORM BELOW:</p>
+    <br />
+    <form action="complaint_connect.php" method="post">
+      <label for="fname">FIRST NAME:</label><br />
+      <input
+        type="text"
+        placeholder="Enter First name"
+        name="firstName"
+      /><br /><br />
+      <label for="lname">LAST NAME: </label><br />
+      <input
+        type="text"
+        placeholder="Enter last name"
+        name="lastName"
+      /><br /><br />
+      <label for="usn">USN:</label><br />
+      <input type="text" placeholder="Enter USN" name="usn" /><br /><br />
+      <label for="room">ROOM NUMBER:</label><br />
+      <input
+        type="text"
+        placeholder="Enter room number"
+        name="room"
+      /><br /><br />
+      <label for="contact">CONTACT NUMBER:</label><br />
+      <input
+        type="text"
+        placeholder="Enter contact number"
+        name="contact"
+      /><br /><br />
+      <label for="mail">EMAIL ID:</label><br />
+      <input type="text" placeholder="Enter Email ID" name="mail" /><br /><br />
+      <label for="complaint">COMPLAINT/QUERRY:</label><br />
+      <input
+        type="text"
+        placeholder="File your complaint"
+        name="complaint"
+      /><br /><br />
+      <input type="submit" value="SUBMIT" />
+    </form>
+    <br />
+    <button class="home" onclick="window.location.href = 'home.html';">
+      HOME
+    </button>
+    <br /><br />
+  </body>
+</html>

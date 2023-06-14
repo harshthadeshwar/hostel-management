@@ -1,0 +1,61 @@
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(165, 199, 247);
+  color: white;
+}
+
+body {
+  background: rgb(109, 146, 197);
+}
+#frm {
+  border: solid gray 1px;
+  width: 25%;
+  border-radius: 2px;
+  margin: 120px auto;
+  background: white;
+  padding: 50px;
+  border: #433d3d;
+  border-radius: 1cm;
+  background-color: white;
+}
+#btn {
+  color: #fff;
+  background: #337ab7;
+  padding: 7px;
+  margin-left: 45%;
+  border-radius: 15%;
+}
+
+.login {
+  justify-content: center;
+  margin-left: 35%;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}

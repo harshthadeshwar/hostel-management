@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outpass</title>
+    <link href="outpass.css" rel="Stylesheet" />
+  </head>
+  <body>
+    <h1>REQUEST FOR OUTPASS</h1>
+    <p>KINDLY FILL THE DETAILS BELOW TO APPLY FOR AN OUTPASS:<br /></p>
+    <form action="outpass_connect.php" method="post">
+      <input type="text" placeholder="Enter First name" name="Fname" required />
+      <input
+        type="text"
+        placeholder="Enter Last name"
+        name="Lname"
+        required
+      /><br />
+      <input type="text" placeholder="Enter USN" required name="usn" /><br />
+      <label>BRANCH:</label><br />
+      <select name="branch">
+        <option>Computer Science</option>
+        <option>Information Science</option>
+        <option>Mechanical</option>
+        <option>Electronics and Communication</option>
+        <option>Artificial Intelligence and Machine Learning</option>
+        <option>Computer Science and Design</option>
+        <option>Computer Science and Business System</option></select
+      ><br />
+      <label>SEMESTER:</label><br />
+      <select name="sem">
+        <option>1st sem</option>
+        <option>2nd sem</option>
+        <option>3rd sem</option>
+        <option>4th sem</option>
+        <option>5th sem</option>
+        <option>6th sem</option>
+        <option>7th sem</option>
+        <option>8th sem</option></select
+      ><br />
+      <input
+        type="number"
+        placeholder="Enter room no."
+        name="roomno"
+        required
+      /><br />
+      <input
+        type="tel"
+        placeholder="Enter Contact No."
+        name="contact"
+        required
+      /><br />
+      <input
+        type="email"
+        placeholder="Enter email id"
+        name="mail"
+        required
+      /><br />
+      <p>HOSTEL:</p>
+      <input type="radio" id="boys" name="gender" />
+      <label for="boys">Boys</label>
+      <input type="radio" id="girls" name="gender" />
+      <label for="girls">Girls</label><br />
+      <input type="text" placeholder="Enter hostel no." name="hostelno" />
+      <br />
+      <label>GOING ON:</label>
+      <input type="date" name="goingon" />
+      <label>AT TIME:</label>
+      <input type="time" name="goingtime" /><br />
+      <label>RETURNING ON:</label>
+      <input type="date" name="returningon" />
+      <label>AT TIME:</label>
+      <input type="time" name="returntime" /><br />
+      <p>PURPOSE:</p>
+      <label>Personal</label>
+      <input type="radio" name="reason" />
+      <label>Academics</label>
+      <input type="radio" name="reason" /><br />
+      <input
+        type="text"
+        placeholder="Enter purpose"
+        required
+        name="otherpurpose"
+      /><br />
+      <label>Contact Person:</label><br />
+      <input
+        type="text"
+        placeholder="Enter name"
+        required
+        name="contactperson"
+      /><br />
+      <label>Contact person Tel. No.:</label><br />
+      <input
+        type="tel"
+        placeholder="Enter number"
+        required
+        name="contactpersonphone"
+      /><br /><br />
+      <input type="checkbox" required />
+      <label
+        >I am aware of the fact that I am going out from hostel at my own wish
+        and risk for this outing College/Hostel authorities are not
+        responsible.I declare that the Information given above is true to the
+        best of my knowledge.</label
+      ><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

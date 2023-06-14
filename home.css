@@ -1,0 +1,215 @@
+h1 {
+  color: white;
+  font-family: "Bayon";
+  font-size: xx-large;
+  background-color: rgb(180, 171, 171);
+  padding: 45px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  text-align: center;
+}
+
+.anchor_button {
+  background-color: rgb(218, 206, 206);
+  border: none;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+body {
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.menu {
+  margin-left: 1000px;
+}
+
+.database,
+.petition,
+.signin,
+.outpass,
+.complaint,
+.logout {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+  margin-right: 20px;
+}
+a:hover {
+  color: whitesmoke;
+}
+
+a:active {
+  color: blue;
+}
+
+hr {
+  height: 5px;
+  background: black;
+}
+
+.image1 {
+  max-width: 100%;
+  height: 500px;
+  opacity: 0.5;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.center {
+  /*position:absolute;
+  top:60%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:45px;
+  font-style:Garamond;
+  color:rgb(255, 255, 255);
+  background-color: rgb(71, 67, 67);
+  padding-left: 10px;
+  padding-right: 10px;*/
+  background-color: white;
+  color: black;
+  font-size: 2.5vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0; /* Center the text container */
+  padding: 2px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 60%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+.apply {
+  max-width: 100%;
+  height: 500px;
+  /* border:5px solid black;*/
+}
+
+.para1 {
+  font-size: 25px;
+  float: right;
+  text-align: center;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+.button1 {
+  float: right;
+  padding: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 1000px;
+  left: 850px;
+  transition: padding 0.1s;
+  border-radius: 30px;
+}
+.button1:hover {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  content: "\00bb";
+}
+
+.comp {
+  max-width: 50%;
+  height: 500px;
+  /*border:5px solid black;*/
+  float: right;
+}
+
+.para2 {
+  font-size: 25px;
+  float: left;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.button2 {
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 1450px;
+  left: 250px;
+  border-radius: 30px;
+}
+
+.button2:hover {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  content: "\00bb";
+}
+
+.pet {
+  max-width: 100%;
+  height: 500px;
+  /*border:5px solid black;*/
+  float: left;
+  margin-top: 330px;
+}
+
+.para3 {
+  font-size: 25px;
+  float: right;
+  text-align: center;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+.button3 {
+  float: right;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 2000px;
+  left: 900px;
+  border-radius: 30px;
+}
+
+.button3:hover {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  content: "\00bb";
+}
+
+.button4 {
+  float: center;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 2300px;
+  left: 670px;
+}
+
+.button4:hover {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  content: "\00bb";
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1250px;
+}

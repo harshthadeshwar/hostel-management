@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FilePetition</title>
+    <link href="Filepetition.css" rel="Stylesheet for petition" />
+  </head>
+  <body>
+    <h1>FILE A PETITION</h1>
+
+    <p>File your petition here by filling out the form below</p>
+    <hr />
+    <br />
+    <form action="petition_connect.php" method="post">
+      <label for="fname">FIRST NAME:</label><br />
+      <input
+        type="text"
+        placeholder="Enter First name"
+        name="firstname"
+      /><br /><br />
+      <label for="lname">LAST NAME: </label><br />
+      <input
+        type="text"
+        placeholder="Enter last name"
+        name="lastname"
+      /><br /><br />
+      <label for="usn">USN:</label><br />
+      <input type="text" placeholder="Enter USN" name="usn" /><br /><br />
+      <label for="room">ROOM NUMBER:</label><br />
+      <input
+        type="text"
+        placeholder="Enter room number"
+        name="room"
+      /><br /><br />
+      <label for="contact">CONTACT NUMBER:</label><br />
+      <input
+        type="text"
+        placeholder="Enter contact number"
+        name="contact"
+      /><br /><br />
+      <label for="mail">EMAIL ID:</label><br />
+      <input type="text" placeholder="Enter Email ID" name="mail" /><br /><br />
+      <label for="petition">FILE YOUR PETITION:</label><br />
+      <input
+        type="text"
+        placeholder="Write the petition"
+        name="Petition"
+      /><br /><br />
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </body>
+</html>
